@@ -1,37 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <title>
-    <%= htmlWebpackPlugin.options.title %>
-  </title>
-  <style>
-    .el-menu-item.is-active {
-      background-color: #478ce9 !important;
-      font-weight: bold;
-    }
+  <link rel="stylesheet" href="/assets/uni.09a1169b.css">
 
-    .el-submenu.is-active i {
-      color: #fff;
-    }
-
-    .el-submenu.is-active span {
-      color: #fff;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <script>
+    var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+      CSS.supports('top: constant(a)'))
+    document.write(
+      '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+      (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+  </script>
+  <title>智慧手环</title>
+  <!--preload-links-->
+  <!--app-context-->
+  <script type="module" crossorigin src="/assets/index-7f04d2f0.js"></script>
+  <link rel="stylesheet" href="/assets/index-d6f9380d.css">
 </head>
 
 <body>
-  <noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
-  </noscript>
-  <div id="app"></div>
-  <!-- built files will be auto injected -->
+  <div id="app">
+    <!--app-html-->
+  </div>
+  
 </body>
 
 </html>
